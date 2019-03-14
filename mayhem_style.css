@@ -960,7 +960,11 @@
     text-transform: none;
     text-align: justify;
   }
-.moreToCome {display: none;}
+
+  .moreToCome {
+    display: none;
+  }
+
   #grey {
     background-color: rgb(255, 255, 255);
     /*Illustration Page*/
@@ -1148,7 +1152,6 @@
   /*Alterations to hide properties from Tablet & Mobile Mode*/
   .banner, #myNav, #show, #hide, .name {
     display: none;
-
   }
 
   .IconsNav {
@@ -1160,14 +1163,14 @@
     align-items: center;
     width: 200px;
     height: 80px;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
     justify-content: flex-end;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
   }
 
   .IconsNav:hover {
-      box-shadow: 5px 5px white;
+    box-shadow: 5px 5px white;
   }
 
   .icons {
@@ -1199,7 +1202,7 @@
     padding: 0;
     border-top: 0;
     z-index: 999;
-      border-radius: 3px;
+    border-radius: 3px;
   }
 
   .navigation a {
@@ -1212,7 +1215,6 @@
     font-family: 'EB Garamond', serif;
     text-align: justify;
     padding-left: 10px;
-
   }
 
   .navigation a:hover {
@@ -1275,27 +1277,26 @@
     top: 10px;
     left: 10px;
     z-index: 999;
-/* Glow Animation */
-  -webkit-animation: glow1 2s ease-in-out infinite alternate;
-  -moz-animation: glow1 2s ease-in-out infinite alternate;
-  animation: glow1 2s ease-in-out infinite alternate;
+    /* Glow Animation */
+    -webkit-animation: glow1 2s ease-in-out infinite alternate;
+    -moz-animation: glow1 2s ease-in-out infinite alternate;
+    animation: glow1 2s ease-in-out infinite alternate;
   }
 
   #open:hover .navigation {
     max-height: 1000px;
     max-width: 150px;
     display: block;
-  box-shadow: 5px 5px white;
+    box-shadow: 5px 5px white;
   }
 
   #open:hover {
     width: 150px;
     background-color: rgba(255, 255, 255, 0.8);
     transition: 0.25s ease-in-out 0s;
-  box-shadow: 5px 5px white;
-  -webkit-animation: none;
-  animation: none;
-
+    box-shadow: 5px 5px white;
+    -webkit-animation: none;
+    animation: none;
   }
 
   .navigation, .submenu1, .submenu2, #nav, #nav2, #links, #open {
@@ -1335,9 +1336,11 @@
   .submenu2 a::before, .submenu1 a::before {
     content: "+ ";
   }
-.submenu1 a, .submenu2 a {
-letter-spacing: -0.5px;
-}
+
+  .submenu1 a, .submenu2 a {
+    letter-spacing: -0.5px;
+  }
+
   #nav, #nav2, #links {
     font-weight: bold;
   }
@@ -1356,17 +1359,17 @@ letter-spacing: -0.5px;
     padding-bottom: 15px;
   }
 
+  /*Webkit KeyFrames*/
+  @-webkit-keyframes glow1 {
+    from {
+      box-shadow: 3px 3px 10px #FFF, -3px -3px 10px #FFF, -3px 3px 10px #FFF, 3px -3px 10px #FFF;
+    }
 
-/*Webkit KeyFrames*/
+    to {
+      box-shadow: 0px 0px 2px #FFF;
+    }
+  }
 
-@-webkit-keyframes glow1{
-  from {
-    box-shadow: 3px 3px 10px #FFF, -3px -3px 10px #FFF, -3px 3px 10px #FFF, 3px -3px 10px #FFF;
-  }
-  to {
-    box-shadow: 0px 0px 2px #FFF;
-  }
-}
   footer {
     text-align: center;
     text-transform: lowercase;
