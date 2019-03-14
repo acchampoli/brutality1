@@ -941,7 +941,7 @@
   }
 
   .illustrationTitle {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 40px;
     font-weight: lighter;
     padding: 50 50 0 80;
@@ -954,7 +954,7 @@
   }
 
   .illustrationDetail {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 18px;
     font-weight: normal;
     text-transform: none;
@@ -994,16 +994,18 @@
   }
 
   .textWrap>p {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 18px;
     line-height: 1.5em;
     text-indent: 50px;
     margin: 0;
     text-align: justify;
+    font-weight: normal;
   }
 
   .textWrap>p::first-letter {
     font-size: 36px;
+    font-weight: bold;
   }
 
   .textWrap * a {
@@ -1013,7 +1015,7 @@
     transition: 0.5s ease-in;
     font-style: italic;
     font-weight: bold;
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Playfair Display', serif;
   }
 
   .textWrap * strong {
