@@ -1047,8 +1047,8 @@
   .gridgallery {
     display: flex;
     flex-flow: row wrap;
-    padding: 100px 100px 0 100px;
-    margin: auto;
+    padding: 100px 80px 0 160px;
+    width: 90%;
   }
 
   div.cssbox {
