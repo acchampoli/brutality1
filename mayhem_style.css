@@ -880,7 +880,7 @@
     display: flex;
     flex-flow: row nowrap;
     height: 100%;
-    margin: 150px 50px;
+    margin: 150px 100px;
   }
 
   .column>img {
@@ -959,9 +959,8 @@
     font-weight: normal;
     text-transform: none;
     text-align: justify;
-    display:none;
   }
-
+.moreToCome {display: none;}
   #grey {
     background-color: rgb(255, 255, 255);
     /*Illustration Page*/
@@ -1056,8 +1055,8 @@
   }
 
   .cssbox_thumb {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
     width: 100%;
     height: 250px;
     object-fit: cover;
