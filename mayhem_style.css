@@ -1048,6 +1048,7 @@
     display: flex;
     flex-flow: row wrap;
     padding: 100px 100px 0 100px;
+    margin: auto;
   }
 
   div.cssbox {
