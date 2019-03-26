@@ -1,0 +1,112 @@
+<!-- */DOCTYPE!html/* */Password/* -->
+<html>
+
+<head>
+  <style>
+    html {
+  width: 100%;
+  margin: 0;
+}
+
+
+input {
+  background-color: #ffd149;
+  opacity: 1;
+  width: 300px;
+  height: 75px;
+  border: 0px;
+  box-shadow: -20px -20px rgba(0,0,0,.7);
+  font-size: 30px;
+  font-family: "Helvetica", sans-serif;
+  text-transform: Uppercase;
+  color: black;
+  font-weight: bold;
+  margin-top: 40px;
+  letter-spacing: 5px;
+transition: 1s ease-out;
+}
+
+input:hover {
+  letter-spacing: 1px;
+}
+
+.greeting {
+  width: 800px;
+  height: 300px;
+  background-color: white;
+  box-shadow: -20px -20px rgba(0,0,0,.7)
+}
+
+.greeting h2 {
+  font-family: "Tahoma", sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.greeting p {
+  font-family: "Tahoma", sans-serif;
+  text-align: center;
+  font-style: italic;
+  font-size: 20;
+  line-height: .75em;
+}
+
+.greeting a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffd149;
+  transition: 1s ease-out;
+}
+
+.greeting a:hover {
+  color: black;
+  font-style: normal;
+}
+body {
+  background: url('http://i65.tinypic.com/28s7ubm.jpg');
+   background-repeat: no-repeat;
+    background-size: cover;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+</style>
+</head>
+
+<body>
+
+  <script>
+    function passWord() {
+var testV = 1;
+var pass1 = prompt('Enter Portfolio Password',' ');
+while (testV < 3) {
+if (!pass1)
+history.go(-1);
+if (pass1.toLowerCase() == "mayhem") {
+alert('Welcome!');
+window.open('/SecretRetouchPortfolio.html');
+break;
+}
+testV+=1;
+var pass1 =
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3)
+history.go(-1);
+return " ";
+}
+</script>
+    <div class="greeting"><h2>Welcome to Alexandra's retouching portfolio!</h2><br><br><p> If the password has been provided to you, please follow the prompt below. <br><br>Also, please make sure to visit Alexandra Champoli's <a href="www.alexandrachampoli.com"> photography website</a>.</p></div>
+
+  <div>
+    <FORM>
+      <input type="button" value="Enter" onClick="passWord()">
+    </FORM>
+  </div>
+
+</body>
+<footer></footer>
