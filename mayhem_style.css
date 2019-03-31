@@ -100,21 +100,18 @@
     color: #818181;
   }
 
-  #projects {
-    text-decoration: none;
-    font-size: 26px;
-    color: #444444;
-    display: block;
-    transition: 0.3s;
-    font-family: 'Cabin Condensed', serif;
-    font-weight: 500;
-    text-transform: lowercase;
-    position: relative;
-    border: none;
+  .dropbtn {
     background-color: transparent;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 0px;
+    border: 0px;
+    font-size: 24px;
+    color: #444444;
+    text-transform: lowercase;
+    font-family: 'Cabin Condensed', serif;
+    padding: 8px;
+    letter-spacing: 2px;
+  }
+  .dropdown {
+    display: none;
   }
 
   .icons {
@@ -459,7 +456,6 @@
     display: block;
     transition: 0.3s;
     font-family: 'Cabin Condensed', serif;
-    font-weight: 500;
     text-transform: lowercase;
   }
 
@@ -479,21 +475,18 @@
     color: #818181;
   }
 
-  #projects {
-    text-decoration: none;
-    font-size: 26px;
-    color: #444444;
-    display: block;
-    transition: 0.3s;
-    font-family: 'Cabin Condensed', serif;
-    font-weight: 500;
-    text-transform: lowercase;
-    position: relative;
-    border: none;
+  .dropbtn {
     background-color: transparent;
-    text-align: center;
-    margin: 0;
-    padding-bottom: 0;
+    border: 0px;
+    font-size: 24px;
+    color: #444444;
+    text-transform: lowercase;
+    font-family: 'Cabin Condensed', serif;
+    padding: 8px;
+    letter-spacing: 2px;
+  }
+  .dropdown {
+    display: none;
   }
 
   .icons {
@@ -609,7 +602,6 @@
     margin: auto;
     position: relative;
     left: 50px;
-
   }
 
   .illustrationTitle {
@@ -999,7 +991,7 @@
   }
 
   .textWrap>p {
-    font-family: 'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     line-height: 1.5em;
     text-indent: 50px;
@@ -1064,12 +1056,12 @@
   }
 
   .cssbox_thumb {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 500px;
+    max-height: 300px;
     width: 100%;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
-    padding: 5px;
+    padding: 10px;
   }
 
   span.cssbox_full {
@@ -1090,8 +1082,8 @@
     background-color: white;
     margin: 0;
     padding: 0;
-    max-height: 120%;
-    max-width: 120%;
+    max-height: 150%;
+    max-width: 150%;
     top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -1241,7 +1233,8 @@
     height: 100px;
     display: none;
   }
-/*
+
+  /*
   #initials:hover {
     color: transparent;
     transition: .2s ease-in 0s;
@@ -1259,7 +1252,7 @@
     position: absolute;
     top: 5;
     left: 12;
-    font-size:30px;
+    font-size: 30px;
     line-height: 0.80em;
     color: black;
     margin: 0;
