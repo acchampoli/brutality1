@@ -81,15 +81,18 @@
         </div>
         <div class="illustrations"><img src="http://i67.tinypic.com/346uw7d.jpg"></div>
         <p class="moreToCome" style="position: relative; bottom: 0;">...More to come...</p>
-
-
-
       </div>
     </div>
   </div>
 
 
   <script type="text/javascript" src="jquery.js"></script>
+      <script>
+        $('.dropbtn').click(function() {
+          $('.dropbtn').css('display', 'show');
+          $('#myDropdown').show();
+        });
+      </script>
   <script>
     $('#show').click(function() {
       $('#show').css('display', 'none');
