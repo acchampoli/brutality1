@@ -625,6 +625,10 @@
     text-align: justify;
   }
 
+  .moreToCome {
+    display: none;
+  }
+
   #grey {
     background-color: rgb(246, 246, 246);
     /*Illustration Page*/
