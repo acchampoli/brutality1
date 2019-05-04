@@ -225,7 +225,7 @@
 
   .illustrationTitle {
     font-family: 'Cabin Condensed', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: lighter;
     padding: 0 50 0 0;
     margin: 0;
@@ -233,16 +233,27 @@
     position: relative;
     top: 0px;
     left: 0px;
-    width: 280px;
+    width: 350px;
+    text-align: center;
   }
 
   .illustrationDetail {
     font-family: 'Cabin Condensed', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: normal;
     text-transform: none;
     text-align: center;
+    width: 350px;
   }
+
+  #illustrationInfo {
+    font-family: 'Cabin Condensced', sans-serif;
+    font-weight: 100;
+  font-style: italic;
+width: 350px;
+margin: auto;
+text-align: center;
+padding: 10px 5px 25px 5px; }
 
   #grey {
     background-color: rgb(246, 246, 246);
@@ -595,13 +606,16 @@
   }
 
   /*Illustration TABLET*/
+  .illustrations {
+    display: flex;
+    flex-flow: row nowrap;
+  }
   .illustrations img {
     height: 550px;
     width: auto;
     padding-bottom: 20px;
-    margin: auto;
+    margin: 0 50px;
     position: relative;
-    left: 50px;
   }
 
   .illustrationTitle {
@@ -623,6 +637,18 @@
     font-weight: normal;
     text-transform: none;
     text-align: justify;
+  }
+
+  #illustrationInfo {
+      font-family: 'Cabin Condensed', sans-serif;
+      font-size: 18px;
+      font-weight: normal;
+      text-transform: none;
+      text-align: center;
+      position: relative;
+      margin: 10px 50px;
+            padding: 0 20px;
+
   }
 
   .moreToCome {
@@ -942,20 +968,23 @@
   }
 
   /*Illustrations WEB */
+  .illustrations {
+    display: flex;
+    flex-flow: row nowrap;
+  }
   .illustrations img {
     height: 550px;
     width: auto;
-    margin: auto;
-    margin-left: 50px;
-    margin-top: 50px;
-    border: 25px solid white;
+    padding-bottom: 20px;
+    margin: 0 50px;
+    position: relative;
   }
 
   .illustrationTitle {
-    font-family: 'Cabin Condensed', serif;
+    font-family: 'Cabin Condensed', sans-serif;
     font-size: 40px;
     font-weight: lighter;
-    padding: 50 50 0 80;
+    padding: 0 50 0 0;
     margin: 0;
     text-transform: uppercase;
     position: relative;
@@ -965,13 +994,23 @@
   }
 
   .illustrationDetail {
-    font-family: 'Cabin Condensed', serif;
+    font-family: 'Cabin Condensed', sans-serif;
     font-size: 18px;
     font-weight: normal;
     text-transform: none;
     text-align: justify;
   }
 
+  #illustrationInfo {
+      font-family: 'Cabin Condensed', sans-serif;
+      font-size: 18px;
+      font-weight: normal;
+      text-transform: none;
+      text-align: center;
+      position: relative;
+      margin: 10px 50px;
+      padding: 0 20px;
+  }
   .moreToCome {
     display: none;
   }
