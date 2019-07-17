@@ -1437,13 +1437,17 @@ padding: 10px 5px 25px 5px; }
   }
 
   footer {
-    text-align: center;
+    text-align: right;
     text-transform: lowercase;
-    font-family: 'Lato';
+    font-family: 'tahoma';
+    font-style: italic;
     font-size: 12px;
-    color: white;
-    position: fixed;
+    color: rgb(129, 129, 129);
+    position: absolute;
+    bottom: 10;
+    right: 10;
     width: 100%;
-    display: none;
+    z-index: 10;
+    display:none;
   }
 }
