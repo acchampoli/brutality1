@@ -19,9 +19,8 @@
     max-width: 500px;
     width: auto;
     height: 50px;
-    background-color: white;
-    border: 1px solid grey;
-    box-shadow: 5px 5px 15px grey;
+    background-color: black;
+    border: 0px solid grey;
   }
 
   .name a {
@@ -29,11 +28,12 @@
     font-family: 'Cabin Condensed', serif;
     font-weight: lighter;
     text-decoration: none;
-    color: black;
+    color: white
+    ;
     text-transform: uppercase;
     text-align: justify;
     word-spacing: 5px;
-    letter-spacing: -2px;
+    letter-spacing: 2px;
     padding: 0;
     margin: auto;
     position: absolute;
@@ -126,9 +126,10 @@
     float: right;
     padding: 5px;
     margin: 0 2px 0 2px;
-    background-color: white;
+    background-color: transparent;
     border: 0px;
     font-size: 20px;
+    color: white;
   }
 
   #hide {
@@ -139,9 +140,10 @@
     float: right;
     padding: 5px;
     margin: 0 2px 0 2px;
-    background-color: white;
+    background-color: transparent;
     border: 0px;
     font-size: 20px;
+    color: white;
   }
 
   .nav_menu {
@@ -417,9 +419,7 @@ padding: 10px 5px 50px 5px; }
     max-width: 1200px;
     width: auto;
     height: 70px;
-    background-color: white;
-    border: 1px solid grey;
-    box-shadow: 5px 5px 15px grey;
+    background-color: black;
   }
 
   .name a {
@@ -427,7 +427,7 @@ padding: 10px 5px 50px 5px; }
     font-family: 'Cabin Condensed', serif;
     font-weight: 300;
     text-decoration: none;
-    color: black;
+    color: white;
     text-transform: uppercase;
     text-align: justify;
     word-spacing: 5px;
@@ -525,9 +525,10 @@ padding: 10px 5px 50px 5px; }
     float: right;
     padding: 5px;
     margin: 0 2px 0 2px;
-    background-color: white;
+    background-color: transparent;
     border: 0px;
     font-size: 36px;
+    color: white;
   }
 
   #hide {
@@ -538,9 +539,10 @@ padding: 10px 5px 50px 5px; }
     float: right;
     padding: 5px;
     margin: 0 2px 0 2px;
-    background-color: white;
+    background-color: transparent;
     border: 0px;
     font-size: 36px;
+    color: white;
   }
 
   .nav_menu {
@@ -577,7 +579,7 @@ padding: 10px 5px 50px 5px; }
     height: 100%;
     width: auto;
     overflow-x: scroll;
-    background-color: rgb(255, 241, 236);
+    background-color: ;
   }
 
   #blue {
@@ -586,7 +588,7 @@ padding: 10px 5px 50px 5px; }
   }
 
   #pink {
-    background-color: rgb(255, 212, 225);
+    background-color: white;
     /*Portraits Page*/
   }
 
@@ -725,7 +727,7 @@ padding: 10px 5px 50px 5px; }
 
   .aboutMe {
     width: 100%;
-    height: 100%;
+    height: 100%; 
     margin: 0;
     padding: 0;
         background-color: rgb(231, 213, 233);
